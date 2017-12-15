@@ -17,7 +17,7 @@ var interval= setInterval(function(){
         $("#frame").attr("src","src/photoBack.png");
       
  }else if(xAngle%360==-90 || xAngle%360==270){
-                   $("#frame").attr("src", "src/bloomBack.png"); 
+                   $("#frame").attr("src", "src/bloomBack.jpgs"); 
                 
       
   }else if(yAngle%360==90 || yAngle%360==-270){
