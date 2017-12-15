@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    
+    
+    
+    </head>
+<body>
+    
+    
+    
+    <p onclick="getLocation()">Click for location</p>
+
+
+<p id="demo"></p>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    if(position.coords.latitude>=40 &&position.coords.latitude<=60 && position.coords.longitude<=-63 && position.coords.longitude>=-78){
+    x.innerHTML = "Channel 5";
+}
+} else if(position.coords.latitude>=40 &&position.coords.latitude<=60 && position.coords.longitude<=-78 && position.coords.longitude>=-91){
+
+x.innerHTML="Channel 257";
+}else if(position.coords.latitude>=40 &&position.coords.latitude<=60 && position.coords.longitude<=-91 && position.coords.longitude>=-104){
+    
+    x.innerHTML="Channel 1023";
+}else if(position.coords.latitude>=40 &&position.coords.latitude<=60 && position.coords.longitude<=-104 && position.coords.longitude>=-124){
+         x.innerHTML="Channel 56";
+         
+         }else{
+             
+             x.innerHTML="You are outside the US. Contact your service provider or check their webpage for international packages or channel listings "
+             
+         }
+</script>
+    
+    </body>
+
+
+
+</html>

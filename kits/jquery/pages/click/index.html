@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").click(function(){
+    $("div").animate({
+        width:'200px',
+        height:'600px',
+        
+        
+    })});
+    });
+</script>
+    <style>
+        #div{
+            width:60px;
+            height:60px;
+            background-color: aqua;
+            
+        }
+    </style>
+</head>
+<body>
+
+<p>Click on this paragraph.</p>
+
+    <div id="div"></div>
+</body>
+</html>

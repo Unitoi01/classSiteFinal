@@ -1,0 +1,62 @@
+div{
+    width:200px;
+    height:690px;
+    float:left;
+    padding-left: 3px;
+}
+#bigBody{
+    width:800%;
+}
+.divOne{
+font-family: arial;
+    border-style:groove;
+    font-size: 48px;
+         border-width: 10px;
+}
+.divTwo{
+    font-family:fantasy;
+    font-size:80px;
+    border-width: 10px;
+    border-style: solid double solid double;
+      transform:rotate(-5deg);
+}
+.divThree{
+    font-family: cursive;
+    font-size:100px;
+    border-width: 10px;
+    border-style: inset;
+      transform:rotate(-2deg);
+}
+.divFour{
+    font-family: Palatino Linotype;
+    font-size:40px;
+    border:10px solid black;
+    padding:5px;
+    border-radius:25px;
+    transform:rotate(3deg);
+    
+}
+.divFive{
+    font-family: Comic Sans MS;
+    font-size: 100px;
+    border-width: 10px;
+    border-style: double;
+      transform:rotate(-2deg);
+    
+}
+.divSix{
+    font-family: Lucida Console;
+    font-size: 30px;
+    border-width: 10px;
+    border-style: solid;
+    transform:rotate(-3deg);
+}
+.continue{
+    font-size: 30px;
+    position:fixed;
+  margin-left:90%;
+    margin-top:90%;
+    
+    
+    
+}

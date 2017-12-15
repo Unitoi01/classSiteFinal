@@ -1,0 +1,244 @@
+
+body
+{
+
+
+}
+.circle{
+    border-radius: 50%;
+    
+}
+#top{
+    width:50px;
+    height:50px;
+    background-color:white;
+    margin:0 auto;
+      margin-top:20%;
+}
+#bot{
+    width:50px;
+    height:50px;
+    background-color:white; 
+     margin:0 auto;
+    margin-top:15%;
+}
+#left{
+    width:50px;
+    height:50px;
+    background-color:white; 
+    margin-top:15%;
+    margin-left:20%;
+}
+
+#right{
+    width:50px;
+    height:50px;
+    background-color:white; 
+    margin-left:73%;
+    margin-top:-7%;
+    
+    
+    
+}
+
+@media screen and (max-width: 1250px) {
+
+     .textBox{
+        font-size:5px;
+         letter-spacing:-12;
+    line-height:1.2em;
+    }	
+
+ 
+    .text{
+         font-size:80px;   
+    }
+    #vs{
+           font-size:90px; 
+        
+    }
+    #cirText{
+        
+           font-size:30px; 
+    }
+    .vsTextR{
+        margin-left:310%;
+           font-size:40px; 
+       
+    }
+    .vsTextL{
+           font-size:40px;
+        
+        
+    }
+    #end{
+           font-size:130px; 
+        
+    }
+
+
+
+@media screen and (max-width: 1150px) {
+ #right{
+        background-color: white;
+    }
+    #left{
+        background-color: white; 
+        
+    }
+     #top{
+        background-color: white; 
+        
+    }
+     #bot{
+        background-color: black; 
+        
+    }
+	
+
+	
+}
+
+
+
+@media screen and (max-width: 950px) {
+
+
+#right{
+        background-color: white;
+    }
+    #left{
+        background-color: black; 
+        
+    }
+     #top{
+        background-color: white; 
+        
+    }
+     #bot{
+        background-color: white; 
+        
+    }
+	
+
+	
+}	
+
+	
+	
+
+
+
+
+@media screen and (max-width: 850px) {
+
+#right{
+        background-color: white;
+    }
+    #left{
+        background-color: white; 
+        
+    }
+     #top{
+        background-color: black; 
+        
+    }
+     #bot{
+        background-color: white; 
+        
+    }
+
+
+	
+}
+
+
+@media screen and (max-width: 750px) {
+
+	#right{
+        background-color: black;
+    }
+    #left{
+        background-color: white; 
+        
+    }
+     #top{
+        background-color: white; 
+        
+    }
+     #bot{
+        background-color: white; 
+        
+    }
+	
+	
+}
+
+
+
+@media screen and (max-width: 650px) {
+
+	#right{
+        background-color: white;
+    }
+    #left{
+        background-color: white; 
+        
+    }
+     #top{
+        background-color: white; 
+        
+    }
+     #bot{
+        background-color: black; 
+        
+    }	
+
+	
+}
+
+
+@media screen and (max-width: 550px) {
+
+	#right{
+        background-color: white;
+    }
+    #left{
+        background-color: black; 
+        
+    }
+     #top{
+        background-color: white; 
+        
+    }
+     #bot{
+        background-color: white; 
+        
+    }	
+	
+
+	
+	
+}
+
+@media screen and (max-width: 400px) {
+
+		#right{
+        background-color: white;
+    }
+    #left{
+        background-color: white; 
+        
+    }
+     #top{
+        background-color: black; 
+        
+    }
+     #bot{
+        background-color: white; 
+        
+    }	
+
+
+	
+}

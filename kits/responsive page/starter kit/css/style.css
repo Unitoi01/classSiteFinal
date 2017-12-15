@@ -1,0 +1,70 @@
+
+#left{
+    width:58%;
+    height:100%;
+    position:relative;
+        border:solid 3px;
+    font-size: 27.5px;
+    
+}
+#bar{float:right;
+    margin-top:-713px;
+    border:solid 3px;
+    width:40%;
+height:100%;
+}
+li{margin-bottom:4.7em;
+font-size:30px;
+
+}
+li:hover{
+    color:white;
+    background-color:green;
+    
+}
+
+@media screen and (max-width: 1024px) {
+  #left{
+        
+        font-size: 80;
+    }
+    #bar{
+        margin-top:-800px;
+    }  
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+	 #left{
+        
+        font-size: 60;
+    }
+    #bar{
+        margin-top:-700px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+	
+	
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+	
+}
+
+
+@media screen and (max-width: 320px) {
+
+}
+
+

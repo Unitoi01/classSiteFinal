@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    x=0;
+$(document).ready(function(){
+    $("div").scroll(function(){
+       
+    $("span").css("color","red");
+        
+    });
+    });
+</script>
+    <style>
+        #div{
+            width:200px;
+            height:50px;
+            overflow:scroll;
+        }
+    </style>
+</head>
+<body>
+
+<p>Hover on this paragraph.</p>
+
+    <div id="div"><span>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</span> 
+</div>
+</body>
+</html>

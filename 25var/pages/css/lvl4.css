@@ -1,0 +1,179 @@
+.courier{
+    font-family: Courier New, Sans-Serif;
+    letter-spacing: -4px;
+    font-size:2.4em
+}
+.courierHead{
+    
+    font-family:Courier, sans-serif;
+    letter-spacing: 78px;
+    font-size:8em;
+    
+        
+}
+#bigBody{
+    height:800%;
+   
+}
+#sevenOne{
+ 
+    border-style: dashed;
+ padding: 5px 5px 5px 5px;
+    position: absolute;
+    margin-top:10em;
+    margin-left:30em; 
+    font-family: Helvetica;
+    font-size:20px;
+}
+#sunflower{
+    position:fixed;
+   font-family:Helvetica;
+    font-size:40px;
+    border-style: dashed;
+padding:5px;
+    margin-left:-5em
+    
+}
+#sevenTwo{
+    transform:rotate(-20deg);
+    border-style: dashed;
+ padding: 20px 40px 20px 40px;
+    position: absolute;
+    margin-top:140%;
+    font-family:Comic Sans MS;
+    font-size:25px;
+    
+}
+#sevenThree{
+    
+    
+     transform:rotate(30deg);
+    border-style: dashed;
+ padding: 200px 0px 200px 0px;
+    position: absolute;
+    margin-top:200%;
+        
+    font-family:Arial;
+    font-size:25px;  
+    
+}
+#sevenFour{
+    
+     
+     transform:rotate(-30deg);
+    border-style: dashed;
+ padding: 200px 0px 200px 0px;
+    position: absolute;
+    margin-top:200%;
+        margin-left:70%;
+    font-family:Arial;
+    font-size:25px;  
+    
+}
+#sevenFive{
+    
+  
+    border-style: solid;
+ padding: 0px 30px 500px 30px;
+    position: absolute;
+    margin-top:400%;
+        margin-left:40%;
+    font-family:Arial;
+    font-size:25px;  
+    
+    
+}
+
+#sevenSix{
+ border-style: solid;
+ padding: 140px;
+    position: absolute;
+    margin-top:500%;
+        margin-left:40%;
+    font-family:Arial;
+    font-size:25px;   
+    margin-bottom: 100%;
+    
+}
+#sevenSeven{
+ border-style: solid;
+ padding: 140px;
+
+    margin:auto;
+   
+       text-align: center;
+    font-family:Arial;
+    font-size:180px;     
+    
+    }
+
+#moveDown{
+    
+    margin-top:600%;
+}
+#eightOne{
+    font-family: Lucida Console;
+    letter-spacing: -5.4px;
+}
+#eightTwo{
+    font-family: Lucida Console;
+    letter-spacing: -4.6px;  
+    
+}
+#eightThree{
+      font-family: Lucida Console;
+    letter-spacing: -4.6px;   
+    
+}
+#eightFour{
+    font-family: Lucida Console;
+    letter-spacing: -4.7px; 
+    
+}
+#eightFive{
+   font-family: Lucida Console;
+    letter-spacing: -4.7px;  
+    
+}
+
+#eightSix{
+    font-family: Lucida Console;
+    letter-spacing: -5.3px;  
+    
+}
+#eightSeven{
+    font-family: Lucida Console;
+    letter-spacing: -4.5px;    
+    
+}
+#eightEight{
+     font-family: Lucida Console;
+    letter-spacing: -5.1px;    
+    
+}
+#eightTitle{
+    font-family: Arial;
+    font-style: italic;
+    font-size: 40px;
+    letter-spacing: -12px;
+}
+#twenty{
+    margin-top:3em;
+    font-family: fantasy;
+        font-size:50px;
+    line-height: 75%;
+    letter-spacing:-4px ;
+    text-align: center;
+    
+    
+    
+}
+.continue{
+    font-size: 30px;
+    position:absolute;
+  margin-left:90%;
+    margin-top:90%;
+    
+    
+    
+}

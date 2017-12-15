@@ -1,0 +1,99 @@
+a:link {
+    display:block;
+    position:relative;
+    text-decoration: none;
+    font-size: 27;
+    color:black;
+    width:30%;
+margin:0 auto;
+    padding-right: ;
+    text-align: center;
+    margin-bottom:-20;
+    
+}
+
+a:visited {
+     color:black
+    text-decoration: none;
+}
+
+a:hover {
+     color:black
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.yellow:hover{
+    background-color:yellow;
+    
+}
+.black:hover{
+    background-color:#8B4513;
+    
+}
+.green:hover{
+     background-color:green;
+    
+}
+
+.sideDiv{
+    float:left;
+   background: linear-gradient(183deg,#edfb05 , #800d02);
+    margin-top:-5%;
+background-size: 400% 400%;
+height:118%;
+    width:30%;
+-webkit-animation: AnimationName 11s ease infinite;
+-moz-animation: AnimationName 11s ease infinite;
+animation: AnimationName 11s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:55% 0%}
+    50%{background-position:46% 100%}
+    100%{background-position:55% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:55% 0%}
+    50%{background-position:46% 100%}
+    100%{background-position:55% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:55% 0%}
+    50%{background-position:46% 100%}
+    100%{background-position:55% 0%}
+} 
+    
+    
+}
+.sideDiv2{
+    float:right;
+   background: linear-gradient(183deg, #edfb05 , #800d02);
+background-size: 400% 400%;
+height:115%;
+    width:30%;
+ margin-top:-50%;
+-webkit-animation: AnimationName 11s ease infinite;
+-moz-animation: AnimationName 11s ease infinite;
+animation: AnimationName 11s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:55% 0%}
+    50%{background-position:46% 100%}
+    100%{background-position:55% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:55% 0%}
+    50%{background-position:46% 100%}
+    100%{background-position:55% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:55% 0%}
+    50%{background-position:46% 100%}
+    100%{background-position:55% 0%}
+} 
+    
+    
+}

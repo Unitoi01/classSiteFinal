@@ -1,0 +1,102 @@
+html { overflow-y: hidden; }
+#frame{
+    position:fixed; top:0px; left:0px; bottom:0px; right:0px; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:-9999999;
+    
+}
+#click{
+position:relative;
+    bottom:400px;
+    z-index:0;
+    
+}
+#navText{
+    text-align:center;
+    margin-top:40px;
+    
+}
+#bloom{
+  margin-top:30px;  
+}
+
+#book{
+  margin-top:45px;  
+}
+#house{
+   margin-top:30px; 
+}
+#photo{
+    transform:rotate(180deg);
+    
+}
+#experiment {
+  -webkit-perspective: 800px;
+  -webkit-perspective-origin: 50% 200px;
+  -moz-perspective: 800px;
+  -moz-perspective-origin: 50% 200px;
+  perspective: 800px;
+  perspective-origin: 50% 150px;
+   
+}
+
+#cube {
+  position: relative;
+  margin: 220px auto;
+  height: 300px;
+  width: 300px;
+  -webkit-transition: -webkit-transform 2s linear;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: -moz-transform 2s linear;
+  -moz-transform-style: preserve-3d;
+  transition: transform 2s linear;
+  transform-style: preserve-3d;
+    z-index:2;
+}
+
+.face {
+  position: absolute;
+  height: 320px;
+  width: 320px;
+  padding: 20px;
+  background-color: rgb(50, 50, 50);
+  font-size: 27px;
+  line-height: 1em;
+  color: #fff;
+  border: 1px solid #555;
+  border-radius: 3px;
+}
+
+#cube .one  {
+  -webkit-transform: rotateX(90deg) translateZ(200px);
+  -moz-transform: rotateX(90deg) translateZ(200px);
+  transform: rotateX(90deg) translateZ(200px);
+}
+
+#cube .two {
+  -webkit-transform: translateZ(200px);
+  -moz-transform: translateZ(200px);
+  transform: translateZ(200px);
+}
+
+#cube .three {
+  -webkit-transform: rotateY(90deg) translateZ(200px);
+  -moz-transform: rotateY(90deg) translateZ(200px);
+  transform: rotateY(90deg) translateZ(200px);
+}
+
+#cube .four {
+  -webkit-transform: rotateY(180deg) translateZ(200px);
+  -moz-transform: rotateY(180deg) translateZ(200px);
+  transform: rotateY(180deg) translateZ(200px);
+}
+
+#cube .five {
+  -webkit-transform: rotateY(-90deg) translateZ(200px);
+  -moz-transform: rotateY(-90deg) translateZ(200px);
+  transform: rotateY(-90deg) translateZ(200px);
+}
+
+#cube .six {
+  -webkit-transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
+  -moz-transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
+  transform: rotateX(-90deg) rotate(180deg) translateZ(200px);
+}

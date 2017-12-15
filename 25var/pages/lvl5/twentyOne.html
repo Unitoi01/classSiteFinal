@@ -1,0 +1,46 @@
+<html>
+<head><title></title></head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/lvl5.css">
+    <script>
+    
+    $(document).ready(function(){
+        var count=-1;
+        var poem=[" I want to  tell you","about the sunflower I found ","on the sidewalk yesterday.","It is wilting and curled and gorgeous","and knows it.","I want to age like that,","never forgetting my own beauty,","never forgetting how to say bloom.","By Anna Voelker" ]
+    $(".myDiv").click(function(){
+         
+        count++;
+    
+        var line= poem[count];
+       if(count==5 || count==0 || count==8){
+         $(".myDiv").append('<br><br> <span>' +line +'</span>');  
+       
+       }else if(count==9){
+           count=0;
+       line=poem[count];
+           $(".myDiv").append('<br> <br> <span>' +line +'</span>');
+       }else{
+        $(".myDiv").append('<br> <span>' +line +'</span>');
+       }
+    });
+});
+    
+    
+    </script>
+<body class= "myDiv">
+  
+   
+Bloom
+
+
+
+<br><br>
+
+  <a href="../../index.html">&nbsp;&nbsp;^&nbsp;&nbsp;</a><br>
+    <a href="twentyTwo.html" class="continue">==></a>
+    <a href="../lvl4/twenty.html"><==</a>
+
+        
+
+    </body>
+</html>

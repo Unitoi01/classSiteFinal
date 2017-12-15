@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  display: flex;
+    flex-direction: row;
+  flex-wrap: nowrap;
+  
+    width:100%;
+    margin-left:16px;
+    margin:0 auto;
+    justify-content: space-around;
+}
+
+.flex-container>div {
+  background-color: skyblue;
+  width: 200px;
+height:200px;
+  text-align: center;
+    margin-top:20px;
+   margin-left:5px;
+    margin-bottom:6em;
+  
+   
+}
+   .flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+    
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-align-items: stretch;
+  align-items: center;
+}
+
+.flex-item:nth-of-type(1) { flex-grow: 2; }
+.flex-item:nth-of-type(2) { flex-grow: 1; }
+.flex-item:nth-of-type(3) { flex-grow: 5; }
+.flex-item:nth-of-type(4) { flex-grow: 1; }
+.flex-item:nth-of-type(5) { flex-grow: 2; }
+
+
+.flex-item {
+  
+  background: tomato;
+  border: 3px solid rgba(0,0,0,.2);
+    margin-left:15px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+ .flex-col{
+        flex-direction: column;
+       
+        justify-content: center;
+
+   
+    }
+    .flex-list:nth-of-type(1) { flex-grow: 2; }
+.flex-list:nth-of-type(2) { flex-grow: 1; }
+.flex-list:nth-of-type(3) { flex-grow: 5; }
+.flex-list:nth-of-type(4) { flex-grow: 1; }
+
+    .flex-list{
+        align-self:center;
+        background:orange;
+        color:orange;
+        font-size:2em;
+        width:400px;
+            
+    
+        margin:auto;
+        margin-top:40px;
+    }
+    .box{
+    
+  
+   margin-left:auto;
+      background-color:darkblue;
+        display:float;
+        flex-direction: column;
+             width: 60px;
+  height: 50px
+    }
+    .list{
+      background:darkgreen; 
+        width: 60px;
+  height: 50px
+        
+    }
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+  <div></div>
+  <div></div>
+  <div></div>  
+  <div></div>
+  <div></div>
+   <div></div>
+</div>
+<ul class="flex-container">
+  <li class="flex-item">1</li>
+  <li class="flex-item">2</li>
+  <li class="flex-item">3</li>
+  <li class="flex-item">4</li>
+</ul>
+    <div class="flex-col">
+  <div class="flex-list">1</div>
+  <div class="flex-list">2</div>
+  <div class="flex-list">3</div>
+  <div class="flex-list">4</div>
+</div>
+    <div class=".box"></div>
+    
+
+</body>
+</html>

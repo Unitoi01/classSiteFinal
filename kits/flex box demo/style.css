@@ -1,0 +1,15 @@
+.topBar1{
+    width:100px;
+    height:100px;
+    display:flex;
+    flex-direction:column;
+    background-color:red;
+    
+}
+
+
+.topDiv{
+    width:20px;
+    height:30px;
+    background-color: beige;
+}
